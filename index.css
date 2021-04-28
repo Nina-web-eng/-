@@ -1,0 +1,42 @@
+.container{
+    border: 2px solid;
+    padding: 10px;
+    background-color:#ffa;
+}
+.container h2{
+    font-size: 40px;
+}
+#content{
+    width:30%;
+    height:20px;
+}
+#date{
+    width:30%;
+    height:20px;
+
+}
+#time{
+    width:30%;
+    margin-bottom: 20px;
+    height:20px;
+
+}
+.wrap{
+    font-size: 20px;
+}
+#btn{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: bisque;
+    color: brown;
+    border: none;
+}
+#delbtn{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: cadetblue;
+    color: darkblue;
+    border: none;
+}
