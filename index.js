@@ -34,37 +34,10 @@ btn.addEventListener('click',function enter(){
     })
     render()})
 
-    //讓輸入的資料呈現在網頁上(渲染頁面的list)
-    //         let strHTML=''
-    //         listName.forEach(function (item){
-    //         strHTML=strHTML+`
-    //         <div class="item">
-    //             <div>
-    //                 <p>內容:${item.content}</p>
-    //                 <p>時間:${item.time} ${item.date}</p>
-    //             </div>
-    //         </div>
-    //         `})
-    //         list.innerHTML=strHTML
-    //         })
-
 //點擊刪除按鈕
 delbtn.addEventListener('click',function del(){
 
     listName.pop()
-    
-    //刪除頁面上的資料(渲染頁面)
-    //     let strHTML=''
-    //     listName.forEach(function (item){
-    //     strHTML=strHTML+`
-    //     <div class="item">
-    //         <div>
-    //             <p>內容:${item.content}</p>
-    //             <p>時間:${item.time} ${item.date}</p>
-    //         </div>
-    //     </div>
-    //     `})
-    //     list.innerHTML=strHTML
     
     render()
 })
