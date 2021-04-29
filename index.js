@@ -22,6 +22,9 @@ function render(){
     </div>
     `})
     list.innerHTML=strHTML
+    document.getElementById('content').value=null //清除輸入欄位中的資料
+    document.getElementById('date').value=null
+    document.getElementById('time').value=null
     }
 
 //點擊輸入按鈕
